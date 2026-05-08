@@ -1,7 +1,6 @@
 {
   "private": true,
   "type": "module",
-  "packageManager": "pnpm@10.10.0",
   "scripts": {
     "check-pnpm": "chmod +x ./scripts/install-pnpm.sh && ./scripts/install-pnpm.sh",
     "frontend:pnpm_install": "npm run check-pnpm && cd frontend && pnpm install",
